@@ -13,7 +13,8 @@ spec:
     spec:
       containers:
       - name: nodejsapp
-        image: $IMAGE_REPO:$TAG-$GIT_COMMIT
+        # image: $IMAGE_REPO:$TAG-$GIT_COMMIT
+        image: notwhale/jenkins-freestyle-project:13
         resources:
           limits:
             cpu: 25m
